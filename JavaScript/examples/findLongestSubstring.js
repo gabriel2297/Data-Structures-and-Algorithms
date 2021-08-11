@@ -2,8 +2,9 @@
 // substring with all distinct chars
 /** Explanation: 
  * 1. seen is a set, which can only contain unique elements
- * 2. loop from left to the end of the string
- * 3. if the set already 
+ * 2. loop from left to the end of the string using j (incrementing the window)
+ * 3. if the set has that char, we know that we've reached the longest substring without repeating chars so far, so start decrementing the window
+ * 4. if the set doesn't have that char, increment the window, add the char and update the max
 */
 function findLongestSubstring(arr){
     let seen = new Set();
