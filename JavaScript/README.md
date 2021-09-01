@@ -185,6 +185,46 @@ function maxsubarraysum(arr, n) {
 We use this algorithm to divide the problem, or breaking them into separate parts, and then checking if the solution is there or not. Used by many searching algorithms like binary search and such.
 
 
+## Sorting
+
+In this section we take a look at sorting, starting with bubble sort
+
+### Bubble sort
+
+Not that commonly used, but it's important to learn. The idea is that we're sorting in an ascending order, meaning bubbling up the largest elements to the right, leaving the smallest elements at the left. Bubble sort implementation [here](algorithms/bubble%20sort/bubblesort.js)
+
+### Selection sort
+
+Selection sort sorts in descending order. It passes through the array and looks for the smallest value, then places it in the beginning. Then it does the same for the second position, and so on. 
+The complexity of it is O(n^2) because we're looping through the array several times and not just once. Selection sort implementation [here](algorithms/selection%20sort/selectionsort.js)
+
+Selection sort does only the necessary swaps, so less writes, while bubble sort does a write (a swap) each time it compares data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
